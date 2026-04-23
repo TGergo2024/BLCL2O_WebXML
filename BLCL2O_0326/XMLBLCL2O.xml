@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BLCL2O_Vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespacesSchemaLocation="XDMBLCL2O.xsd">
+
+<BLCL2O_Vendeglatas>
+    
+    <etterem ekod="E_01">
+        <nev>Megyer Étterem</nev>
+        <csillag>3,5/5</csillag>
+        <cim>
+            <varos>Sárospatak</varos>
+            <utca>Arany János</utca>
+            <hazszam>17</hazszam>
+        </cim>
+
+        <foszakacs fkod="F_101">
+            <nev>Balogh Aladár</nev>
+            <eletkor>47</eletkor>
+            <vegzettseg>Mesterszakács</vegzettseg>
+        </foszakacs>
+
+        <szakacs szkod="SZ_201">
+            <nev>Pintye Sándor</nev>
+            <reszleg>Hidegkonyha</reszleg>
+            <vegzettseg>Szakács</vegzettseg>
+        </szakacs>
+        <szakacs szkod="SZ_202">
+            <nev>Gurman Bertalan</nev>
+            <reszleg>Grill/BBQ részleg</reszleg>
+            <vegzettseg>Okleveles BBQ mester</vegzettseg>
+        </szakacs>
+
+        <gyakornok gykod="GY_301">
+            <nev>Kucsinka Tibor</nev>
+            <gyakorlat>
+                <kezdete>2026-03-01</kezdete>
+                <idotartama>6 hónap</idotartama>
+            </gyakorlat>
+            <muszak>Délután</muszak>
+            <muszak>Hétvége</muszak>
+        </gyakornok>
+    </etterem>
+
+    <vendeg vkod="V_501">
+        <nev>Kandisz Nóra</nev>
+        <eletkor>33</eletkor>
+        <cim>
+            <varos>Makkoshotyka</varos>
+            <utca>Kossuth Lajos út</utca>
+            <hazszam>35</hazszam>
+        </cim>
+    </vendeg>
+
+    <rendeles>
+        <etterem_ref>E_01</etterem_ref>
+        <vendeg_ref>V_501</vendeg_ref>
+        <osszeg>7890</osszeg>
+        <etel>Vörösboros marhapofa, burgonyapüré</etel>
+    </rendeles>
+
+</BLCL2O_Vendeglatas>
